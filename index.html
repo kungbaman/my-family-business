@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namwhan Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Pattaya&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ============ Navbar ============ -->
+    <nav id="header" class="navbar navbar-expand-sm navbar-dark bg-dark nav__header">
+        <div class="container">
+            <a href="index.html" class="navbar-brand namwhan__logo">ร้านน้ำหวาน</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">ประเภทสินค้า</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่องาน</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ Slider ============ -->
+    <section id="slider" class="mb-5">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1>เสื้อยืดคอกลม</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-6">เสื้อแฟนซี</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-6">ชุดนอน</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Service ============ -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-5">
+                    <i class="fa-solid fa-shirt fa-3x mb-3"></i>
+                    <h3>เสื้อยืด</h3>
+                    <p>เสื้อยืดลายลิขสิทธิ์แท้ สำหรับทุกเพศทุกวัย มีทั้งเด็ก 3-6 ขวบ จนถึง ผู้ใหญ่ มีหลากหลายสีให้เลือก ไม่ว่าเป็นเสื้อขาว หรือเสื้อสี</p>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class="col-md-4 text-center mb-5">
+                    <i class="fa-solid fa-vest-patches fa-3x mb-3"></i>
+                    <h3>เสื้อแฟนซี</h3>
+                    <p>ชุดแฟนซีลิขสิทธิ์แท้ พร้อมลายการ์ตูนมากมาย รวมไปถึงซุปเปอร์ฮีโร่ต่างๆ มีให้เลือกมากมายตั้งแต่เด็กเล็กไปจนถึงเด็กโต</p>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                </div>
+                <div class="col-md-4 text-center mb-5">
+                    <i class="fa-solid fa-user-astronaut fa-3x mb-3"></i>
+                    <h3>ชุดนอน</h3>
+                    <p>ขุดนอนลิขสิทธิ์แท้ ประกอบไปด้วยลายการ์ตูนมากมายให้เลือก ไม่ว่าจะเป็น Kitty, Mickey, Minnie, Stitch และลายอื่นๆอีกมากมาย</p>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ About Us ============ -->
+    <section id="about" class="p-4">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h2>เกี่ยวกับเรา</h2>
+                        <h5 class="mb-3">โบ๊เบ๊ทาวเวอร์ชั้น 3 ห้องเลขที่ 488/375 ถ.ดำรงรักษ์ เขตป้อมปราบฯ แขวงคลองมหานาค กรุงเทพมหานคร 10100</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Product ============ -->
+    <section id="product" class="p-5 mb-4">
+        <div class="container">
+            <h1 class="text-center">สินค้าของเรา</h1>
+            <p class="text-center mb-4">นี่คือสินค้าตัวอย่างบางส่วนของทางร้านเรา ย้ำนะครับแค่บางส่วน ยังมีสินค้าลายต่างๆอีกมากมายรอให้ลูกค้าทุกท่านได้เลือกซื้ออยู่</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic1.JPG" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic3.JPG" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic4.JPG" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic2.JPG" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic7.JPG" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic5.JPG" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic6.JPG" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic13.JPG" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="ImageNamwhanShop/pic14.JPG" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Footer ============ -->
+    <footer class="text-center p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-2">
+                    <p>Copyright &copy;  Namwhan_Shop Official 
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ Modal ============ -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>อีเมล</label>
+                        <input type="email" placeholder="ระบุอีเมลของคุณ" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>เรื่อง</label>
+                        <input type="text" placeholder="ระบุชื่อเรื่อง" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>รายละเอียด</label>
+                        <textarea cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-primary">ส่งข้อมูล</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ Scroll Header ============ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ============ Main JS ============ -->
+    <script src="main.js"></script>
+</body>
+</html>
